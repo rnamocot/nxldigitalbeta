@@ -474,7 +474,11 @@ function CoreTruth() {
               <div className="absolute inset-0 animate-shimmer pointer-events-none rounded-2xl" />
 
               <div className="relative z-10 text-center py-6 md:py-8">
-                <div className="text-5xl md:text-6xl font-black gradient-text mb-2">NXL</div>
+                <div className="text-5xl md:text-6xl font-black mb-2">
+                  <span className="text-white">N</span>
+                  <span className="text-blue-400">X</span>
+                  <span className="text-amber-400">L</span>
+                </div>
                 <div className="text-slate-400 text-sm mb-6 tracking-widest uppercase">Strategic System</div>
 
                 {/* Concentric rings */}
@@ -1246,7 +1250,7 @@ function Contact() {
           {/* Contact options */}
           <motion.div
             variants={staggerContainer}
-            className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-5 max-w-2xl mx-auto mb-10 md:mb-12"
+            className="flex justify-center max-w-sm mx-auto mb-10 md:mb-12"
           >
             <motion.a
               variants={scaleIn}
@@ -1265,24 +1269,6 @@ function Contact() {
               <ArrowUpRight size={16} className="text-slate-600 ml-auto shrink-0 group-hover:text-blue-400 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-all" />
             </motion.a>
 
-            <motion.a
-              variants={scaleIn}
-              whileHover={{ scale: 1.03, y: -4 }}
-              transition={{ type: "spring", stiffness: 300, damping: 20 }}
-              href="https://www.nxldigital.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-4 p-5 md:p-6 rounded-2xl card-glass group"
-            >
-              <div className="w-11 h-11 rounded-xl bg-violet-500/10 border border-violet-500/20 flex items-center justify-center text-violet-400 group-hover:bg-violet-500/20 transition-colors shrink-0">
-                <Globe size={20} />
-              </div>
-              <div className="text-left min-w-0">
-                <div className="text-white font-semibold mb-0.5 text-sm md:text-base">Visit Website</div>
-                <div className="text-slate-400 text-xs md:text-sm truncate">www.nxldigital.com</div>
-              </div>
-              <ArrowUpRight size={16} className="text-slate-600 ml-auto shrink-0 group-hover:text-violet-400 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-all" />
-            </motion.a>
           </motion.div>
 
           {/* CTA Button */}
