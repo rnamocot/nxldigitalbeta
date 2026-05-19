@@ -234,11 +234,11 @@ function Hero() {
           }}
         />
         <motion.div
-          animate={{ scale: [1.1, 1, 1.1], opacity: [0.2, 0.4, 0.2] }}
+          animate={{ scale: [1.1, 1, 1.1], opacity: [0.15, 0.3, 0.15] }}
           transition={{ duration: 10, repeat: Infinity, ease: "easeInOut", delay: 2 }}
           className="absolute bottom-1/4 right-1/4 w-[500px] h-[500px] rounded-full"
           style={{
-            background: "radial-gradient(circle, rgba(139,92,246,0.1) 0%, transparent 70%)",
+            background: "radial-gradient(circle, rgba(245,158,11,0.06) 0%, transparent 70%)",
             transform: "translate(50%, 50%)",
           }}
         />
@@ -541,49 +541,49 @@ function SystemPositioning() {
       icon: <Brain size={20} />,
       name: "Insight Layer",
       desc: "Market, competitor, and audience intelligence",
-      color: "text-violet-400",
-      bg: "bg-violet-500/10",
-      border: "border-violet-500/20",
-    },
-    {
-      icon: <Shield size={20} />,
-      name: "Identity Layer",
-      desc: "Positioning, messaging, brand voice",
       color: "text-blue-400",
       bg: "bg-blue-500/10",
       border: "border-blue-500/20",
     },
     {
-      icon: <FileText size={20} />,
-      name: "Content Layer",
-      desc: "Content systems, campaigns, storytelling",
-      color: "text-cyan-400",
-      bg: "bg-cyan-500/10",
-      border: "border-cyan-500/20",
-    },
-    {
-      icon: <Share2 size={20} />,
-      name: "Distribution Layer",
-      desc: "Platforms, SEO, paid media, email",
-      color: "text-green-400",
-      bg: "bg-green-500/10",
-      border: "border-green-500/20",
-    },
-    {
-      icon: <Zap size={20} />,
-      name: "Conversion Layer",
-      desc: "Websites, funnels, lead capture",
+      icon: <Shield size={20} />,
+      name: "Identity Layer",
+      desc: "Positioning, messaging, brand voice",
       color: "text-amber-400",
       bg: "bg-amber-500/10",
       border: "border-amber-500/20",
     },
     {
+      icon: <FileText size={20} />,
+      name: "Content Layer",
+      desc: "Content systems, campaigns, storytelling",
+      color: "text-blue-400",
+      bg: "bg-blue-500/10",
+      border: "border-blue-500/20",
+    },
+    {
+      icon: <Share2 size={20} />,
+      name: "Distribution Layer",
+      desc: "Platforms, SEO, paid media, email",
+      color: "text-amber-400",
+      bg: "bg-amber-500/10",
+      border: "border-amber-500/20",
+    },
+    {
+      icon: <Zap size={20} />,
+      name: "Conversion Layer",
+      desc: "Websites, funnels, lead capture",
+      color: "text-blue-400",
+      bg: "bg-blue-500/10",
+      border: "border-blue-500/20",
+    },
+    {
       icon: <BarChart3 size={20} />,
       name: "Learning Layer",
       desc: "Analytics, reporting, continuous optimization",
-      color: "text-rose-400",
-      bg: "bg-rose-500/10",
-      border: "border-rose-500/20",
+      color: "text-amber-400",
+      bg: "bg-amber-500/10",
+      border: "border-amber-500/20",
     },
   ];
 
@@ -707,24 +707,24 @@ function CoreObjectives() {
       icon: <Users size={24} />,
       title: "Build an Engaged Audience",
       desc: "Attract and develop meaningful connections that last.",
-      color: "text-violet-400",
-      glow: "rgba(139,92,246,0.15)",
+      color: "text-amber-400",
+      glow: "rgba(245,158,11,0.12)",
     },
     {
       number: "03",
       icon: <Star size={24} />,
       title: "Strengthen Digital Identity",
       desc: "Clarify positioning, messaging, and brand voice with precision.",
-      color: "text-amber-400",
-      glow: "rgba(245,158,11,0.15)",
+      color: "text-blue-400",
+      glow: "rgba(59,130,246,0.12)",
     },
     {
       number: "04",
       icon: <TrendingUp size={24} />,
       title: "Enable Business Impact",
       desc: "Convert attention into leads, partnerships, and revenue.",
-      color: "text-green-400",
-      glow: "rgba(34,197,94,0.15)",
+      color: "text-amber-400",
+      glow: "rgba(245,158,11,0.12)",
     },
   ];
 
@@ -853,7 +853,7 @@ function StrategicPrinciple() {
             variants={scaleIn}
             className="relative p-6 md:p-8 rounded-2xl overflow-hidden"
             style={{
-              background: "linear-gradient(135deg, rgba(59,130,246,0.08), rgba(139,92,246,0.08))",
+              background: "linear-gradient(135deg, rgba(59,130,246,0.08), rgba(245,158,11,0.06))",
               border: "1px solid rgba(59,130,246,0.2)",
             }}
           >
@@ -893,8 +893,8 @@ function NXLMethod() {
       title: "Build the Growth Architecture",
       desc: "Define positioning, messaging, and content systems.",
       icon: <Layers size={22} />,
-      color: "from-violet-600 to-violet-400",
-      border: "border-violet-500/30",
+      color: "from-amber-600 to-amber-400",
+      border: "border-amber-500/30",
     },
     {
       num: "03",
@@ -902,8 +902,8 @@ function NXLMethod() {
       title: "Execute with Creative Advantage",
       desc: "Launch content and campaigns with clarity and consistency.",
       icon: <Rocket size={22} />,
-      color: "from-amber-600 to-amber-400",
-      border: "border-amber-500/30",
+      color: "from-blue-600 to-blue-400",
+      border: "border-blue-500/30",
     },
     {
       num: "04",
@@ -911,8 +911,8 @@ function NXLMethod() {
       title: "Measure, Refine, and Compound",
       desc: "Optimize performance and build repeatable growth momentum.",
       icon: <RotateCcw size={22} />,
-      color: "from-green-600 to-green-400",
-      border: "border-green-500/30",
+      color: "from-amber-600 to-amber-400",
+      border: "border-amber-500/30",
     },
   ];
 
@@ -1175,7 +1175,7 @@ function AboutUs() {
 
             <div className="p-5 md:p-6 rounded-2xl card-glass">
               <div className="flex items-center gap-3 mb-4">
-                <Layers size={20} className="text-violet-400 shrink-0" />
+                <Layers size={20} className="text-blue-400 shrink-0" />
                 <span className="font-semibold text-white">Network Model</span>
               </div>
               <p className="text-slate-400 text-sm leading-relaxed">
@@ -1186,8 +1186,8 @@ function AboutUs() {
             <div
               className="p-5 md:p-6 rounded-2xl overflow-hidden relative"
               style={{
-                background: "linear-gradient(135deg, rgba(59,130,246,0.1), rgba(139,92,246,0.08))",
-                border: "1px solid rgba(59,130,246,0.2)",
+                background: "linear-gradient(135deg, rgba(59,130,246,0.08), rgba(245,158,11,0.06))",
+                border: "1px solid rgba(59,130,246,0.15)",
               }}
             >
               <div className="absolute inset-0 animate-shimmer pointer-events-none" />
