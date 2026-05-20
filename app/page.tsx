@@ -311,21 +311,28 @@ function Hero() {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="text-3xl sm:text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight leading-tight mb-5 md:mb-6"
         >
-          Strong brands{" "}
-          <span className="gradient-text">reduce comparison.</span>
-          <br />
-          <span className="text-white">The best brands</span>{" "}
-          <span className="text-slate-400">eliminate it.</span>
+          Don&apos;t be an option,{" "}
+          <span className="gradient-text-amber">be the preference.</span>
         </motion.h1>
+
+        {/* Supporting brand statement */}
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7, delay: 0.45 }}
+          className="text-base md:text-xl text-slate-300 max-w-3xl mx-auto mb-3 leading-relaxed font-medium"
+        >
+          Strong brands reduce comparison. The best brands eliminate it.
+        </motion.p>
 
         {/* Subheadline */}
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.5 }}
-          className="text-base md:text-xl text-slate-400 max-w-3xl mx-auto mb-4 leading-relaxed"
+          className="text-base md:text-lg text-slate-400 max-w-3xl mx-auto mb-4 leading-relaxed"
         >
-          NXL Digital turns insight into structured, scalable growth systems. A strategic operating system for visibility, trust, and measurable business impact.
+          NXL Digital turns insights into structured, scalable growth systems. A strategic operating system for visibility, trust, and measurable business impact.
         </motion.p>
 
         {/* Dynamic word */}
@@ -431,9 +438,8 @@ function CoreTruth() {
               variants={fadeUp}
               className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-5"
             >
-              Most Brands Create{" "}
-              <span className="gradient-text-amber">Activity</span>, Not{" "}
-              <span className="text-slate-400">Progress</span>
+              Most Brands Create Activity, Not{" "}
+              <span className="gradient-text-amber">Progress</span>
             </motion.h2>
 
             <motion.p variants={fadeUp} className="text-slate-400 text-base md:text-lg leading-relaxed mb-8">
@@ -623,7 +629,7 @@ function SystemPositioning() {
             className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-5"
           >
             The Digital Audience{" "}
-            <span className="gradient-text">Engine</span>
+            <span className="gradient-text-amber">Engine</span>
           </motion.h2>
           <motion.p
             variants={fadeUp}
@@ -746,8 +752,9 @@ function CoreObjectives() {
             variants={fadeUp}
             className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-5"
           >
-            What the System Is{" "}
-            <span className="gradient-text">Designed to Achieve</span>
+            What the{" "}
+            <span className="gradient-text-blue">System</span> Is{" "}
+            <span className="gradient-text-amber">Designed to Achieve</span>
           </motion.h2>
         </motion.div>
 
@@ -825,8 +832,7 @@ function StrategicPrinciple() {
             variants={fadeUp}
             className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-black mb-4 leading-tight"
           >
-            Growth Is Not{" "}
-            <span className="gradient-text">Accidental</span>
+            <span className="gradient-text-amber">Growth</span> Is Not Accidental
           </motion.h2>
 
           <motion.p variants={fadeUp} className="text-base md:text-xl text-slate-400 mb-8 md:mb-12">
@@ -937,7 +943,8 @@ function NXLMethod() {
             variants={fadeUp}
             className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4"
           >
-            From <span className="gradient-text">Insight</span> to Execution
+            From <span className="gradient-text-blue">Insight</span> to{" "}
+            <span className="gradient-text-amber">Execution</span>
           </motion.h2>
           <motion.p variants={fadeUp} className="text-slate-400 text-base md:text-lg max-w-xl mx-auto">
             A four-phase system that turns strategic clarity into measurable results.
@@ -1236,8 +1243,8 @@ function Contact() {
             variants={fadeUp}
             className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black mb-5 leading-tight"
           >
-            Turn Insight Into{" "}
-            <span className="gradient-text">Advantage</span>
+            Turn <span className="gradient-text-blue">Insight</span> Into{" "}
+            <span className="gradient-text-amber">Advantage</span>
           </motion.h2>
 
           <motion.p
